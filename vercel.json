@@ -1,0 +1,18 @@
+{
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "framework": "remix",
+  "installCommand": "pnpm install",
+  "builds": [
+    {
+      "src": "build/server/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "build/server/index.js"
+    }
+  ]
+}
