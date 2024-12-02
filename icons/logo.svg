@@ -1,4 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-  <rect width="16" height="16" rx="2" fill="#1389fd" />
-  <path d="M7.398 9.091h-3.58L10.364 2 8.602 6.909h3.58L5.636 14l1.762-4.909Z" fill="#fff" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Triangle Logo -->
+  <g transform="translate(0, 4)">
+    <path d="M16 2L30 28H2L16 2Z" fill="#6200EA"/>
+    <path d="M16 8L24 24H8L16 8Z" fill="#00BFA5"/>
+  </g>
+  
+  <!-- Text -->
+  <g transform="translate(40, 24)">
+    <path d="M0 0H6L9 -8L12 0H18L12 -16L6 0Z" fill="#212121"/>
+    <path d="M20 0H26V-4H32V0H38V-16H32V-8H26V-16H20V0Z" fill="#212121"/>
+    <path d="M40 0H46L48 -4H54L56 0H62L54 -16H48L40 0ZM49 -8H53L51 -12L49 -8Z" fill="#212121"/>
+    <path d="M64 0H70V-6L76 0H82V-16H76V-10L70 -16H64V0Z" fill="#212121"/>
+  </g>
+  
+  <!-- .ai -->
+  <g transform="translate(95, 24)" fill="#00BFA5">
+    <path d="M0 0H4L5 -3L6 0H10L7 -8L3 0Z"/>
+    <circle cx="14" cy="-4" r="2"/>
+  </g>
 </svg>

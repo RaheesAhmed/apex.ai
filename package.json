@@ -1,6 +1,6 @@
 {
-  "name": "bolt",
-  "description": "StackBlitz AI Agent",
+  "name": "apex-ai",
+  "description": "Apex.ai - AI-Powered Full-Stack Development Platform",
   "private": true,
   "license": "MIT",
   "packageManager": "pnpm@9.4.0",

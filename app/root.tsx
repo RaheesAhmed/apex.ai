@@ -39,10 +39,10 @@ export const links: LinksFunction = () => [
 ];
 
 const inlineThemeCode = stripIndents`
-  setTutorialKitTheme();
+  setApexTheme();
 
-  function setTutorialKitTheme() {
-    let theme = localStorage.getItem('bolt_theme');
+  function setApexTheme() {
+    let theme = localStorage.getItem('apex_theme');
 
     if (!theme) {
       theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
@@ -56,6 +56,19 @@ export const Head = createHead(() => (
   <>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apex.ai - Next-Generation Full-Stack Development Platform</title>
+    <meta
+      name="description"
+      content="Build, test, and deploy full-stack applications with AI assistance—all from your browser. No setup required."
+    />
+    <meta name="keywords" content="AI development, full-stack, web development, cloud IDE, coding assistant" />
+    <meta property="og:title" content="Apex.ai - Next-Generation Full-Stack Development Platform" />
+    <meta
+      property="og:description"
+      content="Build, test, and deploy full-stack applications with AI assistance—all from your browser. No setup required."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apex.ai" />
     <Meta />
     <Links />
     <script dangerouslySetInnerHTML={{ __html: inlineThemeCode }} />
